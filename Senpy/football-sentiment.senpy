@@ -1,0 +1,23 @@
+{
+    "name": "football-sentiment",
+    "module": "football-sentiment",
+    "description": "Sentiment clasification",
+    "author": "Carlos Moreno Sanchez",
+    "version": "1.0",
+    "extra_params": {
+        "language": {
+            "aliases": ["language", "l", "lang"],
+            "required": true,
+            "options": ["esp"],
+            "default": "esp"
+        },
+    },
+    "requirements": {bs4,nltk, pandas, sklearn, numpy, scipy},
+
+    "datasetneutro": "/data/tweetinfosent.csv",
+    "datasetpos": "/data/usertweetinfosnbal.csv",
+    "datasetcolera": "/data/Colera-asco-No.csv",
+    "datasetemocion": "/data/tweetinfoEnoE.csv",
+    "datasetfeltris": "/data/Felicidad-Tristeza.csv",
+
+}
